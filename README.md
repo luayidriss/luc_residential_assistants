@@ -1,6 +1,6 @@
 Welcome!
 
-This is the LUC Residential Assistants static website. This proejct was created for the first project in the Full Stack Development Program at <a href="https://codeinstitute.net/global/">Code Institute</a>.
+This is the LUC Residential Assistants static website. This proejct was created for the first project in the Full Stack Development Program at <a href="https://codeinstitute.net/global/" target="_blank">Code Institute</a>.
 
 1. This web application first introduces the audience to the RA role, then the current team, and finally links to an application form for potential applicants. The home page lists carefully the job description of a residential assistant. It also links to the two other pages on the website, to promote engagement with the website. The Team page showcases each RA team member's profile picture, sorted in a 3 column gallery to keep picture width high. You can click on each picture to get a small pop-up which includes the name of the RA, their floor, and a short description of themselves. The pop-ups felt more interactive than having all descriptions on the page alongside the pictures, it would've overcrowded the page. Lastly, the application page is created as a standard form with each input having adequate restrictions on values i.e. no values above 4 for GPA input or a max word length for the text areas.
 
