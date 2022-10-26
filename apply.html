@@ -35,6 +35,31 @@
             </nav>
         </section>
     </header>
+    <section id="application">
+        <h2>LUC Residential Assisstant Application</h2>
+        <br>
+        <p>Do you think you have what it takes to be an RA? Send in your application here to be reviewed.<br>We email you the result of your application in 2 weeks from your submission.</p>
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+            <label for="full_name">Full Name</label>
+            <input id="full_name" type="text" name="full_name" required>
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email_address" required>
+            <label for="grad_year">Expected Graduation</label>
+            <select id="grad_year" name="grad_year" required>
+                <option value="summer-2024">Summer 2024</option>
+                <option value="winter-2024">Winter 2025</option>
+                <option value="summer-2025">Summer 2024</option>
+                <option value="winter-2025">Winter 2025</option>
+            </select>
+            <label for="gpa">GPA</label>
+            <input id="gpa" type="number" name="gpa" min="0" max="4" required>
+            <label for="q1">Describe a situation in which you took responsibility for others. How did it go? (250 words max)</label>
+            <textarea id="q1" name="a1" rows="7" column="10" maxlength="1300" required></textarea>
+            <label for="q2">What about being a RA do you think may challenge you the most? What would turn out to be the most natural to you? (250 words max)</label>
+            <textarea id="q2" name="a2" rows="7" column="10" maxlength="1300" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
 <footer>
     <div id="LU-logo-container" class="footer-element">
         <a href="https://www.universiteitleiden.nl/en" id="LU-logo"><img src="assets/images/ul_logo.png"></a>

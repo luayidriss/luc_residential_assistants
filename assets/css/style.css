@@ -143,7 +143,7 @@ h1, h2 {
     width: 300px;
     height: 150px;
 
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
 
     background-color: rgba(255, 201, 185, .7);
@@ -307,6 +307,11 @@ footer{
 }
 
 /* Meet the Team Heading */
+#header-team{
+    background-color: #FFC9B9;
+    width: 100%;
+}
+
 #meet_the_team h2{
     padding: 20px;
     text-align: center;
@@ -318,13 +323,13 @@ footer{
     line-height: 0;
     column-count: 3;
     column-gap: 10 px;
-    background-color: #FEFEE3;
-    padding: 4px;
+    background-color: #FFC9B9;
+    padding: 4px
 }
 .team-gallery  a  img {
     width: 100%;
     border-radius: 5px;
-    padding: 4px;
+    padding: 4px 0;
 }
 
 .team-gallery a:hover{
