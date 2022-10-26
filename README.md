@@ -9,6 +9,6 @@ This is the LUC Residential Assistants static website. This proejct was created 
 3. In the future, I hope to add more interactive features for students to access their RAs more easily i.e. an appointment booking plug in or a complaints form. Moreover, a seperate sub-section of the website would be designated for RA use only (accesible through a log in and password). This sub-section would hold all necessary documents into iframes, and forms to fill out for RA documentation.
 
 4. Credits:
-I would like to thank the lovely people at Code Institute for curating two great learning modules for HTML and CSS. My mentor Sandeep for helping me brainstorm and debug. This link for great coding walkthrough on creating popups only with CSS <a href="https://codepad.co/snippet/popup-modal-made-with-css-no-javascript">Here</a>. Lastly, The great RA team who has been my source of inspiration and support for a while.
+I would like to thank the lovely people at Code Institute for curating two great learning modules for HTML and CSS. My mentor Sandeep for helping me brainstorm and debug. This link for great coding walkthrough on creating popups only with CSS <a href="https://codepad.co/snippet/popup-modal-made-with-css-no-javascript" target="_blank">Here</a>. Lastly, The great RA team who has been my source of inspiration and support for a while.
 
 5. Feel Free to explore this site and click around on the various buttons, images and fill out the form. Enjoy :)
