@@ -399,7 +399,7 @@ footer{
     background: url("../images/application_form.jpeg");
     background-size: cover;
     background-position: center;
-    height: 650px;
+    height: 750px;
 }
 
 #application_form{
@@ -407,7 +407,7 @@ footer{
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     width: 75%;
-    height: 75%;
+    height: 77%;
     position:absolute;
     padding:15px;
     left: 10%;
@@ -482,4 +482,20 @@ textarea{
     }
     #LU-logo img {
         padding-top: 25%;
+}
+
+/* Application Form */
+@media screen and (max-width: 897px) {
+    #application_form{
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #application{
+        height: 850px;
+    }
+    #application_form{
+        height: 97%;
+    }
 }
