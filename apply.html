@@ -29,21 +29,20 @@
                         <a href="meet_the_team.html">Meet the Team</a>
                     </li>
                     <li>
-                        <a href="index.html" class="active">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                 </ul>
             </nav>
         </section>
     </header>
     <section id="application">
-        <h2>LUC Residential Assisstant Application</h2>
-        <br>
-        <p>Do you think you have what it takes to be an RA? Send in your application here to be reviewed.<br>We email you the result of your application in 2 weeks from your submission.</p>
-        <form method="POST" action="https://formdump.codeinstitute.net/">
+        <form method="POST" action="https://formdump.codeinstitute.net/" id="application_form">
+            <h2>LUC Residential Assisstant Application</h2>
+            <p>Do you think you have what it takes to be an RA? Send in your application here to be reviewed.<br>We email you the result of your application in 2 weeks from your submission.</p>
             <label for="full_name">Full Name</label>
-            <input id="full_name" type="text" name="full_name" required>
+            <input id="full_name" type="text" name="full_name" class="text-input" required>
             <label for="email">Email Address</label>
-            <input id="email" type="email" name="email_address" required>
+            <input id="email" type="email" name="email_address" class="text-input" required>
             <label for="grad_year">Expected Graduation</label>
             <select id="grad_year" name="grad_year" required>
                 <option value="summer-2024">Summer 2024</option>
@@ -51,33 +50,35 @@
                 <option value="summer-2025">Summer 2024</option>
                 <option value="winter-2025">Winter 2025</option>
             </select>
+            <br>
+            <br>
             <label for="gpa">GPA</label>
-            <input id="gpa" type="number" name="gpa" min="0" max="4" required>
+            <input id="gpa" type="number" name="gpa" min="0" max="4" class="text-input" required>
             <label for="q1">Describe a situation in which you took responsibility for others. How did it go? (250 words max)</label>
-            <textarea id="q1" name="a1" rows="7" column="10" maxlength="1300" required></textarea>
+            <textarea id="q1" name="a1" rows="3" column="5" maxlength="1300" class="text-input" required></textarea>
             <label for="q2">What about being a RA do you think may challenge you the most? What would turn out to be the most natural to you? (250 words max)</label>
-            <textarea id="q2" name="a2" rows="7" column="10" maxlength="1300" required></textarea>
-            <input type="submit" value="Submit">
+            <textarea id="q2" name="a2" rows="3" column="5" maxlength="1300" class="text-input" required></textarea>
+            <input type="submit" value="Submit" class="submit-button">
         </form>
     </section>
-<footer>
-    <div id="LU-logo-container" class="footer-element">
-        <a href="https://www.universiteitleiden.nl/en" id="LU-logo"><img src="assets/images/ul_logo.png"></a>
-    </div>
-    <div id="contact-details">
-        <div class="contact-element">
-            <p> <i class="fa-solid fa-phone"></i> RA Emergency Phone Number</p>
-            <a href="tel:+31628287992">+31628287992</a>
+    <footer>
+        <div id="LU-logo-container" class="footer-element">
+            <a href="https://www.universiteitleiden.nl/en" id="LU-logo"><img src="assets/images/ul_logo.png"></a>
         </div>
-        <div class="contact-element">
-            <p><i class="fa-solid fa-location-dot"></i><a href="https://goo.gl/maps/ZR1nb7GLdQFPv9gW8">Anna van Buerenplein<br>Den Haag, The Netherlands</a></p>
+        <div id="contact-details">
+            <div class="contact-element">
+                <p> <i class="fa-solid fa-phone"></i> RA Emergency Phone Number</p>
+                <a href="tel:+31628287992">+31628287992</a>
+            </div>
+            <div class="contact-element">
+                <p><i class="fa-solid fa-location-dot"></i><a href="https://goo.gl/maps/ZR1nb7GLdQFPv9gW8">Anna van Buerenplein<br>Den Haag, The Netherlands</a></p>
+            </div>
+            <div class="contact-element">
+                <p> <i class="fa-solid fa-clock"></i> On-Call Hours</p>
+                <p>Monday to Sunday 7 pm to 7 am</p>
+            </div>
         </div>
-        <div class="contact-element">
-            <p> <i class="fa-solid fa-clock"></i> On-Call Hours</p>
-            <p>Monday to Sunday 7 pm to 7 am</p>
-        </div>
-    </div>
-</footer>
+    </footer>
 <script src="https://kit.fontawesome.com/fcd5c5a6ca.js" crossorigin="anonymous"></script>
 </body>
 </html>

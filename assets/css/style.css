@@ -16,7 +16,9 @@ h3{
     font-weight: 300;
 }
 /* header */
-
+header{
+    background-color: #D68C45;
+}
 #emergency-contact{
     background-color: #FEFEE3;
     padding: 4px;
@@ -296,8 +298,9 @@ footer{
 }
 .contact-element p{
     vertical-align: middle;
+    text-align: left;
 }
-.contact-element a {
+.contact-element a{
     text-decoration: none;
     color: inherit;
 }
@@ -383,4 +386,90 @@ footer{
     max-height: 30%;
     overflow: auto;
   }
-  
+
+  /* Application Page */
+  #application_form h2, #applicatio_form p{
+    text-align: center;
+    padding:8px;
+  }
+
+  #application {
+    clear: left;
+    background: url("../images/application_form.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+#application_form{
+    margin:10px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    width: 75%;
+    position:absolute;
+    padding:30px;
+    height: 95%;
+    left: 9%;
+}
+.text-input{
+    background:transparent;
+    color:#fafafa;
+    width:100%;
+    height:25px;
+    margin:5px 0 20px;
+    border: 1px solid #FFC9B9;
+    border-radius: 2px;
+}
+.text-input:hover{
+    border-color:#D68C45;
+}
+
+textarea{
+    resize: vertical;
+}
+
+.submit-button{
+    margin-top:20px;
+    border-radius:2px;
+    padding: 15px 32px;
+    text-align:center;
+    font-size: 100%;
+    background-color:#4C956C;
+    color:#fafafa;
+    display:block;
+}
+.join-button:hover{
+    background-color:#4C956C;
+    color:#fafafa;
+}
+
+/* Media queries */
+
+/* Header */
+
+@media screen and (max-width: 1166px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        line-height: 25px;
+        background-color:#D68C45 ;
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 780px) {
+    header{
+    height: 280px;
+    }
+    #logo {
+        clear: left;
+        float: left;
+        line-height: 75px;
+        background-color:#D68C45 ;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Footer */
