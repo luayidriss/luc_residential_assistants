@@ -315,13 +315,15 @@ footer{
 .team-gallery {
     clear: both;
     line-height: 0;
-    column-count: 4;
-    column-gap: 0;
+    column-count: 3;
+    column-gap: 10 px;
     background-color: #FEFEE3;
+    padding: 4px;
 }
 
 .team-gallery  a  img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .team-gallery a:hover{
