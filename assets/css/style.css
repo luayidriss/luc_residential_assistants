@@ -312,6 +312,7 @@ footer{
     text-align: center;
 }
 /* Meet the Team Gallery */
+
 .team-gallery {
     clear: both;
     line-height: 0;
@@ -320,10 +321,10 @@ footer{
     background-color: #FEFEE3;
     padding: 4px;
 }
-
 .team-gallery  a  img {
     width: 100%;
     border-radius: 5px;
+    padding: 4px;
 }
 
 .team-gallery a:hover{
