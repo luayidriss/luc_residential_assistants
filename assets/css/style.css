@@ -284,7 +284,7 @@ footer{
     position: relative;
 }
 #LU-logo{
-    padding: 4px;
+    padding-top: 34px;
     display: inline;
 }
 
@@ -305,7 +305,7 @@ footer{
 .contact-element{
     width: 33%;
     display: inline-block;
-    padding: 34.5px 0 0 0;
+    padding-top 50%;
 }
 .contact-element p{
     vertical-align: middle;
@@ -477,7 +477,7 @@ textarea{
 }
 @media screen and (max-width: 780px) {
     header{
-    height: 230px;
+    height: 345px;
     width: 100%;
     }
     #logo {
@@ -502,11 +502,10 @@ textarea{
 
 @media screen and (max-width: 962px) {
     .contact-element{
-        width:29%;
-        padding-top: 17.5px;
+        width:32%;
     }
     #LU-logo img {
-        padding-top: 25%;
+        padding-top: 50%;
 }
 }
 
