@@ -188,19 +188,26 @@ header{
 #meet-the-current-team{
     height: 400px;
     width: 100%;
-}
-
-#team-image {
-    height: 400px;
-    width: 100%;
     background: url('../images/meet_team.png') no-repeat center center;
     position: relative;
+}
+
+#team-button {
+    margin: 0;
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
 
 }
 
 #meet-the-current-team button{
     text-decoration: none;
-    color: #FFF;
+    color: #252525;
     background-color: #D68C45;
     border-width: 15px;
     border: #252525;
@@ -238,6 +245,10 @@ header{
     width: 300px;
     height: 100 px;
     padding: 1rem;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     
 }
 #apply-button button{
@@ -480,8 +491,10 @@ textarea{
 /* hero image */
 @media screen and (max-width: 640px) {
     #cover-text{
-        bottom: 35%;
-        right: 25.5%;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
 }
 
