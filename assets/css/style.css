@@ -309,7 +309,7 @@ footer{
 .contact-element{
     width: 33%;
     display: inline-block;
-    padding-top: 50%;
+    padding-top: 15px;
 }
 .contact-element p{
     vertical-align: middle;
