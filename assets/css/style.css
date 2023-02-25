@@ -188,7 +188,8 @@ header{
 #meet-the-current-team{
     height: 400px;
     width: 100%;
-    background: url('../images/meet_team.png') no-repeat center center;
+    background: url('../images/meet_team.jpg') no-repeat center center;
+    background-size: cover;
     position: relative;
 }
 
@@ -352,7 +353,8 @@ footer{
 .team-gallery a:hover{
     opacity: 70%;
 }
-/* Pop ups with texts */
+/* Pop ups with texts 
+Externally sourced code*/
 
 .overlay {
     position: fixed;
@@ -423,8 +425,6 @@ footer{
     color: #fff;
     background-color: rgba(60, 60, 60, 0.7);
     width: 75%;
-    height: 100%;
-    position:absolute;
     padding:15px;
     margin: 20px;
     overflow-y: scroll;
