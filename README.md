@@ -2,7 +2,7 @@
 
 LUC Residential Assisstants is a site that introduces people to the LUC Residential System and the RA system. The site will be targeted toward LUC students who are are hoping to apply for the RA position. This website will be useful for potential applicants to get an understanding of the role, meet the new team and apply through the application form. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/luayidriss/luc_residential_assistants/blob/9e6f4dd8dee23d0fa95bce433cf12c4c1c31bdd0/media/mockup%20final.png)
 
 ## Features 
 
@@ -15,44 +15,44 @@ There are three different pages: the Home page, the Meet the Team page and the A
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Meet the Team and Apply page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/luayidriss/luc_residential_assistants/blob/9e6f4dd8dee23d0fa95bce433cf12c4c1c31bdd0/media/nav%20bar.png)
 
 - __The hero image__
 
   - This section introduces the user to LUC Residential Assisstants with an eye catching animation to grab their attention.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Hero Image](https://github.com/luayidriss/luc_residential_assistants/blob/9e6f4dd8dee23d0fa95bce433cf12c4c1c31bdd0/media/hero%20image.png)
 
 - __Job Description Section__
 
   - The job description section introduces the user of what the what an RA is, what they do, and what training they get. This should act to inform the user so they apply for the position accordingly.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Job Description](https://github.com/luayidriss/luc_residential_assistants/blob/9e6f4dd8dee23d0fa95bce433cf12c4c1c31bdd0/media/job%20description.png)
 
 - __Meet the Team and Apply section on Home Page__
 
   - These sections act as an incentive to move through the website from the home page. Increasing interactivity with the website.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meetup Times](https://github.com/luayidriss/luc_residential_assistants/blob/9e6f4dd8dee23d0fa95bce433cf12c4c1c31bdd0/media/sections%20home%20page.png)
 
 - __The Footer__ 
 
   - The footer section includes link to the Leiden University page, the emergency RA number, the building location and the on-call hours for RAs. 
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/luayidriss/luc_residential_assistants/blob/9e6f4dd8dee23d0fa95bce433cf12c4c1c31bdd0/media/footer.png)
 
 - __the Meet the Team Page__
 
   - The Meet the Team page will provide the user with images and descriptions of each of the current 17 RAs of the year 2022-2023.
   - This section is valuable to the user as they will be able to identify the current team to ask them questions about the job and the application. As well, to excite applicants that this could be them next year.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Meet the Team Page](https://github.com/luayidriss/luc_residential_assistants/blob/9e6f4dd8dee23d0fa95bce433cf12c4c1c31bdd0/media/Meet%20the%20team%20page.png)
 
 - __The Apply Page__
 
   - This page will allow the user to apply for the RA position for the next year. The application page asks users to provide their name, email address, expected gradution date, gpa and two motivation questions.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Apply Page](https://github.com/luayidriss/luc_residential_assistants/blob/9e6f4dd8dee23d0fa95bce433cf12c4c1c31bdd0/media/apply%20page.png)
 
 ## Testing 
 
