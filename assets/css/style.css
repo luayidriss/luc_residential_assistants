@@ -161,7 +161,7 @@ header{
 
 #about{
     background-color: #FEFEE3;
-    width: 100%;ß
+    width: 100%;
     height: auto;
 }
 
@@ -244,7 +244,7 @@ header{
     text-align: center;
     position: absolute;
     width: 300px;
-    height: 100 px;
+    height: auto;
     padding: 1rem;
     top: 50%;
     left: 50%;
@@ -309,7 +309,7 @@ footer{
 .contact-element{
     width: 33%;
     display: inline-block;
-    padding-top 50%;
+    padding-top: 50%;
 }
 .contact-element p{
     vertical-align: middle;
@@ -340,7 +340,7 @@ footer{
     clear: both;
     line-height: 0;
     column-count: 3;
-    column-gap: 10 px;
+    column-gap: 10px;
     background-color: #FFC9B9;
     padding: 4px
 }
