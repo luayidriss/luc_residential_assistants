@@ -80,7 +80,7 @@ header{
     border-bottom: 1px solid #3a3a3a;
 }
 
-#menu button {
+#menu .button {
     text-decoration: none;
     color: #FFF;
     background-color: #2C6E49;
@@ -94,7 +94,7 @@ header{
     text-align: center;
 }
 
-#menu button:hover {
+#menu .button:hover {
     background-color: #4C956C;
 }
 
@@ -205,7 +205,7 @@ header{
 
 }
 
-#meet-the-current-team button{
+#meet-the-current-team .button{
     text-decoration: none;
     color: #252525;
     background-color: #D68C45;
@@ -221,7 +221,7 @@ header{
 
 }
 
-#meet-the-current-team button:hover{
+#meet-the-current-team .button:hover{
     background-color: #FFC9B9;
     cursor: pointer;
 }
@@ -251,7 +251,10 @@ header{
     transform: translate(-50%, -50%);
     
 }
-#apply-button button{
+#apply-button h2 {
+    margin-bottom: 15px;
+}
+#apply-button .button{
     text-decoration: none;
     color: #FFF;
     background-color: #2C6E49;
@@ -264,7 +267,7 @@ header{
     
 }
 
-#apply-button button:hover{
+#apply-button .button:hover{
     background-color: #4C956C;
     cursor: pointer;
 }
