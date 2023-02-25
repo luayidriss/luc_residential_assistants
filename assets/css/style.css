@@ -415,7 +415,6 @@ Externally sourced code*/
     background: url("../images/application_form.jpeg");
     background-size: cover;
     background-position: center;
-    height: 850px;
     display: flex;
   justify-content: center;
 }
